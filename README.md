@@ -2,7 +2,7 @@
 
 SUPER BETA
 
-Nieve rack middleware to attemp to block requests that appear to contain yaml attacks.
+Naive rack middleware to attemp to block requests that appear to contain yaml attacks.
 This needs to be as close to the head of your inbound rack stack as possible.
 
 This is not a replacement for patching, but rather an attempt to mitigate new
@@ -39,7 +39,7 @@ rack stack as possible.
 
 ## Todo
 
-This is extremely nieve and can possibly be bypassed by encodings.  Check
+This is extremely naive and can possibly be bypassed by encodings.  Check
 into that.
 
 ## Contributing
